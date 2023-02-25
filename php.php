@@ -1,1 +1,5 @@
-echo $_POST["comment"]
+<html>
+<body>
+<?php echo $_POST["comment"];?>
+</body>
+</html>
