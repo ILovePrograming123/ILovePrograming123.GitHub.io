@@ -26,10 +26,12 @@
 		<source src = "Daisuke - El Huervo.mp3" type = "audio/mp3">
 	</audio>
 	<p style="font-size:5px">please play this audio i have no idea how to autoplay it</p>
-	<form action ="/php.php" method="get">
-		<label for="comment">Comment section that does not work</label>
-		<textarea name = "comment" id = "comment" rows="5" cols="20" ></textarea>
-		<input type="submit" value="Submit">
+	<form action ="/php.php" method="POST">
+		<label>Comment section that does not work<br>
+			<textarea name = "Comment" class = "Input" rows="5" cols="20" required></textarea>
+		</label>
+		<br><br>
+		<input type="submit" value="Submit" name="Submit Comment" class="Submit">
 	</form>
 </body>
 </html>
