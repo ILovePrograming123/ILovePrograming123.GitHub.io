@@ -1,1 +1,1 @@
-
+echo $_POST["comment"]
