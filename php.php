@@ -1,5 +1,5 @@
 <html>
 <body>
-<?php echo $_POST["comment"];?>
+<?php echo $_GET["comment"];?>
 </body>
 </html>
